@@ -2,11 +2,11 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
-body {
+/* body {
     padding-top: 3rem;
     padding-bottom: 3rem;
     color: #5a5a5a;
-  }
+  } */
   
   
   /* CUSTOMIZE THE CAROUSEL
@@ -14,17 +14,17 @@ body {
   
   /* Carousel base class */
   .carousel {
-    margin-bottom: 4rem;
+    margin-bottom: 0rem;
   }
   /* Since positioning the image, we need to help out the caption */
   .carousel-caption {
-    bottom: 3rem;
+    bottom: 0rem;
     z-index: 10;
   }
   
   /* Declare heights because of positioning of img element */
   .carousel-item {
-    height: 32rem;
+    height: auto;
   }
   .carousel-item > img {
     position: absolute;
