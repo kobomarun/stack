@@ -30,6 +30,9 @@
         .bd-placeholder-img-lg {
           font-size: 3.5rem;
         }
+        .carousel-item {
+      height: 37rem;
+    }
       }
     </style>
     <!-- Custom styles for this template -->
@@ -37,33 +40,32 @@
   </head>
   <body>
     
-<header>
-  <nav class="navbar navbar-expand-md fixed-top border-bottom border-dark">
-    <div class="container">
-      <div class="navbar-brand px-5">Carousel</div>
-      <button class="navbar-toggler" style="background-color: #333;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse px-5" id="navbarCollapse">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item">
-            <a class="nav-link active menu-link" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link menu-link" href="#">About us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link menu-link" href="#" tabindex="-1" >Our Services</a>
-          </li>
-        </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-  </nav>
-</header>
+    <header>
+      <nav class="navbar navbar-expand-md fixed-top border-bottom border-dark bg-white">
+        <div class="container">
+          <div class="navbar-brand px-5 logo">SoftStack..</div>
+          <button class="navbar-toggler" style="background-color: #333;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse px-5" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active menu-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link menu-link" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link menu-link" href="#" tabindex="-1" >Our Services</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <button class="btn btn-outline-success btn-bg px-4 py-2" type="submit">Get in touch</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
 
 <main>
   <section id="myCarousel" class="carousel slide mt-9" data-bs-ride="carousel">
@@ -75,19 +77,18 @@
             <div class="carousel-caption text-start">
               <h1 class="hero-text">Great<span class="prod"> Product</span> is <br />
                 built by great <span class="prod">teams</span>  </h1>
-              <p class="hero-paragraph">We help build and manage a team of world-class developers to bring your vision to life</p>
-              <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+              <p class="hero-paragraph mt-4">
+                Ready to embark on your software development journey with <span class="company_name "> SoftStack?</span> Whether you're a startup or an established enterprise, we're here to help you achieve your digital goals.              </p>
+              <p><a class="btn btn-lg btn-primary mt-2 bg py-3 px-4" href="#">Let get started!</a></p>
             </div>
           </div>
          </div>
        </div>
-       <div class="col-md-6 col-xs-12">
-        <div class="">  
+       <div class="col-md-6 col-xs-12 d-none d-sm-block">
         <div class="">
-          <img src="/assets/images/Hero-Wrapper__image.png" width="s00px"/>
+          <img src="./assets/images/Hero-Wrapper__image.png" class="h_img"/>
         </div>
       </div>
-    </div>
       </div>
     </div>
   </section>
@@ -97,39 +98,52 @@
   ================================================== -->
   <!-- Wrap the rest of the page in another container to center all the content. -->
 
-  <div class="container marketing">
+  <div class=" marketing">
 
-    <!-- Three columns of text below the carousel -->
-    <div class="row">
-      <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-
-        <h2>Heading</h2>
-        <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-
-        <h2>Heading</h2>
-        <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-
-        <h2>Heading</h2>
-        <p>And lastly this, the third column of representative placeholder content.</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-    </div><!-- /.row -->
+    <section class="mb-4 services-section container-fluid">
+      <h1 class="services-header py-4">Services we offer</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 d-flex mb-5 mb-md-0">
+            <div class="services-wrapper">
+              <div class="services-card py-4">
+                <img src="./assets/images/code.svg" class="px-4 py-4" />
+                <h3 class="services-title px-4">Web Design & Development</h3>
+                <p class="services-text px-4">
+                  From stunning user interfaces to powerful back-end functionality, we excel at delivering web applications that captivate and perform.            </div>
+            </div>
+          </div>
+  
+          <div class="col-md-4 d-flex mb-5 mb-md-0">
+            <div class="services-wrapper">
+              <div class="services-card py-4">
+                <img src="./assets/images/code.svg" class="px-4 py-4" />
+                <h3 class="services-title px-4">Mobile App Development:</h3>
+                <p class="services-text px-4">
+                  Whether it's iOS or Android, we craft native and hybrid mobile apps that engage and retain users.            </div>
+            </div>
+          </div>
+  
+          <div class="col-md-4 d-flex mb-5 mb-md-0">
+            <div class="services-wrapper">
+              <div class="services-card py-4">
+                <img src="./assets/images/code.svg" class="px-4 py-4" />
+                <h3 class="services-title px-4">Custom Software Solutions:</h3>
+                <p class="services-text px-4">
+                  Our team collaborates with you to create software solutions that cater to your unique business needs. Think inventory management systems, project management tools, and more.            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
 
 
     <!-- START THE FEATURETTES -->
 
     <hr class="featurette-divider">
 
-    <div class="row featurette">
+    <div class="row featurette ">
       <div class="col-md-7">
         <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
         <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>

@@ -23,7 +23,50 @@
     font-size: 16px;
     color: #4A5568;
 }
+.logo {
+  color: rgb(131,58,180);
+  font-family: 'inter', Arial, Helvetica, sans-serif !important;
+  font-weight: 700 !important;
+}
+.btn-bg {
+  background: rgb(102,117,247);
+  background: linear-gradient(0deg, rgba(102,117,247,1) 0%, rgba(87,0,123,1) 98%);
+  color:#fff;
+}
+.bg {
+  background: rgb(102,117,247);
+  background: linear-gradient(0deg, rgba(102,117,247,1) 0%, rgba(87,0,123,1) 98%);
+}
+.services-section {
+  background:#F9F9FF!important;
+  padding:20px;
+  margin-top: -4rem;
+}
 
+.services-header {
+  margin: 0 auto;
+  font-family: 'inter', Arial, Helvetica, sans-serif !important;
+  width:230px;
+  font-weight:bold;
+  font-size:1.5rem;
+  color:#1A202C;
+}
+
+.services-wrapper {
+  background: rgb(102,117,247);
+  background: linear-gradient(0deg, rgba(102,117,247,1) 0%, rgba(87,0,123,1) 98%);
+  border-radius:11px;
+  padding:1px;
+  display:flex;
+}
+
+.services-card {
+  background:#fafafa;
+  border-radius:10px;
+  flex:1;
+}
+
+<<<<<<< Updated upstream
 .hero-big {
   margin-left: -45px
 }
@@ -43,7 +86,7 @@
 }
 .services-section {
   background:#F9F9FF!important;
-  height:600px;
+  height:auto;
   padding:20px;
   margin-top: -4rem;
 }
@@ -96,20 +139,10 @@
   width:600px;
   margin: 0 auto;
 }
+ .h_img {
+  width:34rem
+ }
 
-
-
-
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
-
-body {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    color: #5a5a5a;
-  }
-  
   
   /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------------- */
@@ -196,10 +229,8 @@ body {
     .featurette-heading {
       margin-top: 7rem;
     }
-    /* .hero-big {
-      margin-left: -0px
-    } */
   }
+
   
 
   
